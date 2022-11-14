@@ -1,0 +1,15 @@
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.subtitulo {
+    width: 100%;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: left;
+}

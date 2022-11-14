@@ -1,0 +1,55 @@
+.head {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo{
+    margin: 0 2rem;
+    margin-top: 1rem;
+  }
+  .logo span{
+    color: aqua;
+  }
+  
+
+  .head__navegacion li{
+    list-style: none;
+  }
+
+  .head__navegacion a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  .head__navegacion .active {
+    color: aqua;
+  }
+
+  .head__navegacion li:hover a{
+    background-color: aqua;
+    color: #191c32;
+  }
+  
+  .head__navegacion {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .head__enlace {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .head {
+      flex-direction: row;
+      justify-content: space-between;
+      border: none;
+    }
+  }

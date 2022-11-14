@@ -1,0 +1,31 @@
+.card-portafolio{
+    background-color: #2b3058;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5rem;
+    border-radius: 4rem;
+}
+
+
+@media screen and (min-width: 0){
+    .card-portafolio{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .card-portafolio{
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 922px){
+    .card-portafolio{
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+
+}

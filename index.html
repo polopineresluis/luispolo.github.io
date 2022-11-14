@@ -1,12 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Estilos del menu-->
+    <link rel="stylesheet" href="assets/css/menu/cabecera.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css">
+
+    <!-- Estilos del banner -->
+    <link rel="stylesheet" href="assets/css/banner/banner.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-foto.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-descripcion.css">
+
+    <!-- sobre mi-->
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobre-mi.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/titulo-sobremi.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/descripcion-sobremi.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi/sobremi-foto.css">
+
+    <!--tecnologia-->
+    <link rel="stylesheet" href="assets/css/tecnologia/tecnologia.css">
+    <link rel="stylesheet" href="assets/css/tecnologia/card-tecnologia.css">
+    <link rel="stylesheet" href="assets/css/tecnologia/titulo-tecnologia.css">
+    <link rel="stylesheet" href="assets/css/tecnologia/foto-tecnologia.css">
+
+    <!-- portafolio -->
+    <link rel="stylesheet" href="assets/css/portafolio/portafolio.css">
+    <link rel="stylesheet" href="assets/css/portafolio/card-portafolio.css">
+    <link rel="stylesheet" href="assets/css/portafolio/foto-portafolio.css">
+    <link rel="stylesheet" href="assets/css/portafolio/titulo-portafolio.css">
+    <link rel="stylesheet" href="assets/css/portafolio/descripcion-portafolio.css">
+    <link rel="stylesheet" href="assets/css/portafolio/iconos-protafolio.css">
+
+    <!-- formulario -->
+    <link rel="stylesheet" href="assets/css/formulario/formulario.css">
+
+    <!-- Footer -->
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+
+
+    <title>Luis Fernando Polo - Desarrollador </title>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <header class="head container">
+            <div class="logo">
+                <h2>Luis <span>Fernando</span></h2>
+            </div>
+            <nav class="head__navegacion">
+                <ul>
+                    <li class="head__enlace" ><a href="#" class="active">Inicio</a></li>
+                    <li class="head__enlace"><a href="#sobremi">Sobre mi</a></li>
+                    <li class="head__enlace"><a href="#tecnologia">Tecnologias</a></li>
+                    <li class="head__enlace"><a href="#proyectos">Proyectos</a></li>
+                    <li class="head__enlace"><a href="#contactame">Contactame</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <div class="foto"></div>
+            <div class="descripcion">
+                <h2><span class="nombre_s">Soy,</span> Luis <span class="nombre_s">Fernando</span></h2>
+                <p class="inf__mia">
+                    Ingeniero de sistemas. Tengo 28 años, me gusta seguir aprendiendo sobre la informatica mi hobbies es
+                    jugar VideosJuegos.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section class="sobre-mi contenido" id="sobremi">
+            <div class="sobre-mi__descripcion contenido">
+                <h2 class="titulo__sobremi">Sobre mi</h2>
+                <p class="descripcion__sobremi">
+                    Ingeniero de sistemas, con capacidad de liderazgo, habilidad y experiencia para planear, analizar,
+                    diseñar, implementar, medir y verificar sistemas de información.
+                    Excelentes resultados en la Administración y manejo de Procesos; dirigiendo grupos de personas,
+                    capacitándolas a través de las aplicaciones adecuadas para su buen rendimiento, aplicación de
+                    metodologías de análisis y diseño reconocidas, con experiencia en la parte de desarrollo de
+                    aplicaciones, en el área de soporte, con una asimilación rápida de conocimientos y tecnologías,
+                    buena experiencia para trabajar bajo presión.
+                </p>
+            </div>
+            <div class="sobre-mi__foto contenido"></div>
+        </section>
+
+        <section id="tecnologia" class="tecnologias">
+            <h2 class="subtitulo">Tecnologias </h2>
+            <div class="card__tecnologias">
+                <img alt="Tecnologia html" class="tecnologia__imagen" src="./assets/img/html.jpg" />
+                <h4 class="tecnologia__titulo">html</h4>
+            </div>
+
+            <div class="card__tecnologias">
+                <img alt="Tecnologia html" class="tecnologia__imagen" src="./assets/img/css.jpg" />
+                <h4 class="tecnologia__titulo">css</h4>
+            </div>
+
+            <div class="card__tecnologias">
+                <img alt="Tecnologia html" class="tecnologia__imagen" src="./assets/img/java.jpg" />
+                <h4 class="tecnologia__titulo">java</h4>
+            </div>
+
+            <div class="card__tecnologias">
+                <img alt="Tecnologia html" class="tecnologia__imagen" src="./assets/img/android.jpg" />
+                <h4 class="tecnologia__titulo">Android Studio</h4>
+            </div>
+
+            <div class="card__tecnologias">
+                <img alt="Tecnologia html" class="tecnologia__imagen" src="./assets/img/android.jpg" />
+                <h4 class="tecnologia__titulo">SQL</h4>
+            </div>
+
+        </section>
+
+        <section class="portafolio" id="proyectos">
+            <h2 class="subtitulo">Proyectos </h2>
+            <div class="card-portafolio">
+                <img alt="Tigela de abacate" class="portafolio__imagen" src="./assets/img/java.jpg" />
+                <div class="portafolio__contenido">
+                    <h4 class="portafolio__titulo">Ahorcado</h4>
+                    <div class="iconos-portafolio">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-portafolio">
+                <img alt="Tigela de abacate" class="portafolio__imagen" src="./assets/img/android.jpg" />
+                <div class="portafolio__contenido">
+                    <h4 class="portafolio__titulo">Descriptador</h4>
+                    <div class="iconos-portafolio">
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario" id="contactame">
+            <div class="contacto-container">
+                <img src="assets/img/formulario.jpg" alt="">
+                <div class="contact-form">
+                    <h4>Contactame...</h4>
+                    <form class="form-grupo" action="https://formsubmit.co/luis.chily@gmail.com" method="POST"
+                        autocomplete="off">
+                        <input type="text" placeholder="nombre" class="input" name="nombre">
+                        <input type="email" placeholder="correo" class="input" name="correo">
+                        <textarea name="mensaje" placeholder="Escribe su mensaje aqui..." name="mensaje"></textarea>
+                        <button type="submit" class="btn-submit">ENVIAR MENSAJE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-contenido">
+                <h2>Luis Fernando</h2>
+                <h5>Ingeniero De Sistemas</h5>
+            </div>
+            <div class="redes-sociales">
+                <a class="link-sociales" href="https://www.instagram.com/luis_fernandopolo/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a class="link-sociales" href="https://www.linkedin.com/in/luis-fernando-polo-pi%C3%B1eres/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a class="link-sociales" href="" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

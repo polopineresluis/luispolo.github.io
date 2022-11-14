@@ -1,0 +1,10 @@
+.foto{
+    background-image: url(../../img/foto.png);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid aqua;
+    border-radius: 12%;
+}

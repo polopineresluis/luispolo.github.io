@@ -1,0 +1,26 @@
+.portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1d2249;
+}
+
+@media screen and (min-width: 0){
+    .portafolio{
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .portafolio{
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .portafolio{
+        padding: 5rem 0 0 5rem;
+    }
+
+}
+
